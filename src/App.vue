@@ -17,14 +17,14 @@ export default defineComponent({
 });
 
 
-// Firebase
+/* Firebase
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
-import './firebaseConfig';
+ import { firebaseConfig } from 'firebaseConfig';
 
-// Initialize Firebase
+Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const db = getFirestore(app);
+const db = getFirestore(app); */
 </script>
